@@ -20,7 +20,7 @@ import list_request, utils
 
 def showHelp():
   print("Launch multiple subscription\r\n"
-        +"\r\n"        
+        +"\r\n"
         +"Mandatory parameters:\r\n"
         +"-e or --email [email to spam]\r\n"
         +"\r\n"

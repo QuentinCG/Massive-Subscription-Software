@@ -18,7 +18,7 @@ __status__ = "Usable for any project"
 import logging, getopt, sys
 import list_request, utils
 
-def help():
+def showHelp():
   print("Launch multiple subscription\r\n"
         +"\r\n"        
         +"Mandatory parameters:\r\n"
@@ -33,7 +33,7 @@ def help():
         +"-d or --day [day]\r\n"
         +"-m or --month [month]\r\n"
         +"-y or --year [year]\r\n"
-        +"\r\n"        
+        +"\r\n"
         +"Get help:\r\n"
         +"-h or --help\r\n"
         +"\r\n")
@@ -53,22 +53,22 @@ def main():
   month = "10"
   year = "1980"
 
-  # Get options  
+  # Get options
   try:
-    opts, args = getopt.getopt(sys.argv[1:], "he:o:s:f:p:c:d:m:y:",
-                               ["help", "email=", "pseudo=", "surname=", "forename=",
-                                "password=", "postcode=", "day=", "month=",
-                                "year="
-                               ])
+    opts = getopt.getopt(sys.argv[1:], "he:o:s:f:p:c:d:m:y:",
+                         ["help", "email=", "pseudo=", "surname=", "forename=",
+                          "password=", "postcode=", "day=", "month=",
+                          "year="
+                         ])[0]
   except getopt.GetoptError as err:
     logging.error(str(err))
-    help()
+    showHelp()
     sys.exit(1)
 
   # Show help (if requested)
   for o, a in opts:
     if o in ("-h", "--help"):
-      help()
+      showHelp()
       sys.exit(0)
 
   # Get parameters

@@ -23,7 +23,7 @@ def showHelp():
         +"\r\n"        
         +"Mandatory parameters:\r\n"
         +"-e or --email [email to spam]\r\n"
-        +"\r\n"        
+        +"\r\n"
         +"Optional parameters:\r\n"
         +"-o or --pseudo [pseudo]\r\n"
         +"-s or --surname [surname]\r\n"

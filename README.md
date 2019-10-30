@@ -1,5 +1,5 @@
 # Massive-Subscription-Software
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/006d1d834eae4070a276cf80c1e51cf7)](https://www.codacy.com/manual/QuentinCG/Massive-Subscription-Software?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=QuentinCG/Massive-Subscription-Software&amp;utm_campaign=Badge_Grade)  [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/QuentinCG/Massive-Subscription-Software/blob/master/LICENSE)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7edc6b7561924255b347f05c8c2ede8d)](https://www.codacy.com/manual/QuentinCG/Massive-Subscription-Software?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=QuentinCG/Massive-Subscription-Software&amp;utm_campaign=Badge_Grade)  [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/QuentinCG/Massive-Subscription-Software/blob/master/LICENSE)
 
 ## What is it
 
@@ -11,11 +11,11 @@ It is multi-platform and compatible with python 2.7+ and 3+.
 
 ## How to install (python script and shell)
 
-- Install Requests:
-  - Solution 1: "pip install requests"
-  - Solution 2: Download package at https://github.com/kennethreitz/requests and use "python setup.py install" command)
-- Add all newsletter and website subscription in list_request.py (follow examples in the file)
-- Load your shell or python script
+* Install Requests:
+    * Solution 1: "pip install requests"
+    * Solution 2: Download package at <https://github.com/kennethreitz/requests> and use "python setup.py install" command)
+* Add all newsletter and website subscription in list_request.py (follow examples in the file)
+* Load your shell or python script
 
 ## How to use in shell
 

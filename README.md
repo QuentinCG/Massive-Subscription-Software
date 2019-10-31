@@ -1,5 +1,5 @@
 # Massive-Subscription-Software
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7edc6b7561924255b347f05c8c2ede8d)](https://www.codacy.com/manual/QuentinCG/Massive-Subscription-Software?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=QuentinCG/Massive-Subscription-Software&amp;utm_campaign=Badge_Grade)  [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/QuentinCG/Massive-Subscription-Software/blob/master/LICENSE)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7edc6b7561924255b347f05c8c2ede8d)](https://www.codacy.com/manual/QuentinCG/Massive-Subscription-Software?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=QuentinCG/Massive-Subscription-Software&amp;utm_campaign=Badge_Grade)  [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/QuentinCG/Massive-Subscription-Software/blob/master/LICENSE) [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/QuentinCG)
 
 ## What is it
 
